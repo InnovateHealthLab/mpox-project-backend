@@ -34,7 +34,7 @@ The NewCase model stores information about individual cases:
 >
 >   bash
 >
->> git clone https://github.com/your-repo/mpox-project-backend.git
+>> git clone https://github.com/InnovateHealthLab/mpox-project-backend.git
 >> cd mpox-project-backend
 >>
 >> Install dependencies using Poetry:
