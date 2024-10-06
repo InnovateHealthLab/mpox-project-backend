@@ -10,3 +10,6 @@ class NewCase(models.Model):
     test_status = models.CharField(max_length=20, choices=(('pending','Pending'),('confirmed positive','Confirmed Positive'),('confirmed negative','Confirmed Negative')))
     location = models.CharField(max_length=30, null=True, blank=True, help_text='City, Country')
     additional_information = models.TextField(help_text='Occupation, Travel History')
+
+    def __str__(self):
+        return f'{self.case_code}'
