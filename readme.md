@@ -22,10 +22,12 @@ The NewCase model stores information about individual cases:
 |test_status|	CharField|	Test result (pending, confirmed positive, confirmed negative)|
 |location	|CharField	|City and Country information for the case|
 |additional_information | TextField	|Optional details such as occupation and travel history|
-Endpoints
-URL	Method	Description
-/create-case/	POST	Create a new case record
-/get-all-case/	GET	Retrieve all case records
+
+>> Endpoints
+>> URL	Method	Description
+>> /create-case/	POST	Create a new case record
+>> /get-all-case/	GET	Retrieve all case records
+
 Setup Instructions
 
     Clone the repository:
