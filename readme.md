@@ -23,42 +23,41 @@ The NewCase model stores information about individual cases:
 |location	|CharField	|City and Country information for the case|
 |additional_information | TextField	|Optional details such as occupation and travel history|
 
->> Endpoints
->> URL	Method	Description
->> /create-case/	POST	Create a new case record
->> /get-all-case/	GET	Retrieve all case records
+> Endpoints
+> URL	Method	Description
+> /create-case/	POST	Create a new case record
+> /get-all-case/	GET	Retrieve all case records
 
-Setup Instructions
+> ## Setup Instructions
 
-    Clone the repository:
+>    Clone the repository:
 
-    bash
+>   bash
 
-git clone https://github.com/your-repo/mpox-project-backend.git
-cd mpox-project-backend
+>> git clone https://github.com/your-repo/mpox-project-backend.git
+>> cd mpox-project-backend
 
-Install dependencies using Poetry:
+>> Install dependencies using Poetry:
 
-bash
+> bash
 
-poetry install
+>> poetry install
 
-Run migrations:
+>> Run migrations:
 
-bash
+> bash
 
-python manage.py migrate
+>> python manage.py migrate
 
-Run the server:
+>> Run the server:
 
-bash
+> bash
 
-    python manage.py runserver
+>>   python manage.py runserver
 
-Serializers
-
-    FillNewCaseSerializer: Used to serialize and validate the data when creating a new case.
-    GetAllCaseSerializer: Used to serialize the data when retrieving all cases.
+### Serializers
+>>  FillNewCaseSerializer: Used to serialize and validate the data when creating a new case.
+>>  GetAllCaseSerializer: Used to serialize the data when retrieving all cases.
 
 Usage
 
@@ -66,7 +65,7 @@ Usage
 
     json
 
-{
+``` {
   "case_code": "ABC123",
   "age": 25,
   "gender": "male",
@@ -75,12 +74,13 @@ Usage
   "location": "New York, USA",
   "additional_information": "Occupation: Engineer"
 }
+```
 
 Retrieve all cases (GET /get-all-case/): Response format:
 
 json
 
-    [
+```    [
       {
         "case_code": "ABC123",
         "age": 25,
@@ -92,7 +92,7 @@ json
         "additional_information": "Occupation: Engineer"
       }
     ]
-
+```
 License
 
 This project is licensed under the MIT License.
