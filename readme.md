@@ -12,15 +12,16 @@ Models
 NewCase
 
 The NewCase model stores information about individual cases:
-Field	Type	Description
-case_code	CharField	Case identification code (max 9 characters).
-age	PositiveIntegerField	Age of the case subject (0-99).
-gender	CharField	Gender of the case subject (male, female).
-date	DateField	Auto-generated date of case creation.
-outcome	CharField	Outcome of the case (suspended, confirmed).
-test_status	CharField	Test result (pending, confirmed positive, confirmed negative).
-location	CharField	City and Country information for the case.
-additional_information	TextField	Optional details such as occupation and travel history.
+|Field	|Type	|Description |
+|-------|-----|------------|
+|case_code|	CharField	|Case identification code (max 9 characters)|
+|age	|PositiveIntegerField	|Age of the case subject (0-99)|
+|gender	|CharField	|Gender of the case subject (male, female)|
+|date	|DateField	|Auto-generated date of case creation|
+|outcome	|CharField	|Outcome of the case (suspended, confirmed)|
+|test_status|	CharField|	Test result (pending, confirmed positive, confirmed negative)|
+|location	|CharField	|City and Country information for the case|
+|additional_information | TextField	|Optional details such as occupation and travel history|
 Endpoints
 URL	Method	Description
 /create-case/	POST	Create a new case record
