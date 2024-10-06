@@ -1,17 +1,18 @@
 $\textit{Mpox Project Backend}$
-Overview
+
+$\texttt{Overview}$
 
 This project is a backend service for managing case records. It is built with Django and Django REST Framework (DRF). The system allows you to create and retrieve case details, including age, gender, outcome, test status, location, and other relevant information.
 Features
-    - Create new case records
-    - Retrieve all case records
-    - Supports custom fields for location, outcome, and additional information
-    - Age field restricted to two digits (0-99)
+  + Create new case records
+  + Retrieve all case records
+  + Supports custom fields for location, outcome, and additional information
+  + Age field restricted to two digits (0-99)
 
-Models
-NewCase
+### Models
+#### NewCase
 
-The NewCase model stores information about individual cases:
+##### The NewCase model stores information about individual cases:
 |Field	|Type	|Description |
 |-------|-----|------------|
 |case_code|	CharField	|Case identification code (max 9 characters)|
