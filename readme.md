@@ -1,4 +1,4 @@
-$\textit{Mpox Project Backend
+$\textit{Mpox Project Backend}$
 Overview
 
 This project is a backend service for managing case records. It is built with Django and Django REST Framework (DRF). The system allows you to create and retrieve case details, including age, gender, outcome, test status, location, and other relevant information.
@@ -95,4 +95,4 @@ json
 ```
 License
 
-This project is licensed under the MIT License.}$
+This project is licensed under the MIT License.
