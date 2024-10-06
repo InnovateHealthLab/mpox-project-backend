@@ -27,34 +27,34 @@ The NewCase model stores information about individual cases:
 > URL	Method	Description
 > /create-case/	POST	Create a new case record
 > /get-all-case/	GET	Retrieve all case records
-
+>
 > ## Setup Instructions
-
+>
 >    Clone the repository:
-
+>
 >   bash
-
+>
 >> git clone https://github.com/your-repo/mpox-project-backend.git
 >> cd mpox-project-backend
-
+>
 >> Install dependencies using Poetry:
-
+>
 > bash
-
+>
 >> poetry install
-
+>
 >> Run migrations:
-
+>
 > bash
-
+>
 >> python manage.py migrate
-
+>
 >> Run the server:
-
+>
 > bash
-
+>>
 >>   python manage.py runserver
-
+>
 ### Serializers
 >>  FillNewCaseSerializer: Used to serialize and validate the data when creating a new case.
 >>  GetAllCaseSerializer: Used to serialize the data when retrieving all cases.
