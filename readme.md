@@ -7,12 +7,11 @@ It is built with Django and Django REST Framework (DRF).
 The system allows you to create and retrieve case details, including age, gender, outcome, test status, location, and other relevant information.}$
 $\texttt{Features
 }$
-$\texttt{
-  + Create new case records
-  + Retrieve all case records
-  + Supports custom fields for location, outcome, and additional information
-  + Age field restricted to two digits (0-99)
-}$
+
+  + $\texttt{Create new case records}$
+  + $\texttt{Retrieve all case records}$
+  + $\texttt{Supports custom fields for location, outcome, and additional information}$
+  + $\texttt{Age field restricted to two digits (0-99)}$
 
 ### Models
 #### NewCase
