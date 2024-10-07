@@ -13,8 +13,8 @@ $\texttt{Features
   + $\texttt{Supports custom fields for location, outcome, and additional information}$
   + $\texttt{Age field restricted to two digits (0-99)}$
 
-### Models
-#### NewCase
+### $\texttt{Models}$
+#### $\texttt{NewCase}$
 
 ##### The NewCase model stores information about individual cases:
 |Field	|Type	|Description |
